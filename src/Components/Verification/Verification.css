@@ -1,0 +1,77 @@
+.sub-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 480px;
+  background-color: rgb(247, 247, 9);
+}
+
+.forms-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.info {
+  color: rgb(4, 33, 161);
+  margin: 1rem;
+}
+
+.admissions-forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.admissions-forms .error {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.resend-info p a {
+  color: rgb(236, 0, 0);
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.forms-section input {
+  font-size: 0.8rem;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 20rem;
+  height: 2.8rem;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.resend-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 1.5rem;
+}
+
+.resend-link {
+  margin-left: 0.7rem;
+}
+
+.submit-btn button {
+  font-size: 1.1rem;
+  font-weight: bold;
+  height: 50px;
+  width: 100%;
+  padding: 0.5rem 4rem;
+  border-radius: 13px;
+  background-color: #0677e0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 7.6rem;
+}

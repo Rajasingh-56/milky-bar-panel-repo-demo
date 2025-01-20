@@ -1,0 +1,23 @@
+.thankyou-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.greetings {
+  color: rgb(4, 33, 161);
+  font-size: 1.8rem;
+  margin: 0.9rem 0;
+}
+
+.thankyou-info img {
+  width: 7rem;
+}
+
+.thankyou-info p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(243, 62, 62);
+  margin-bottom: 5rem;
+}

@@ -1,0 +1,17 @@
+.foot-section{
+    display: flex;
+    justify-content: start;
+    width: 480px;
+    padding: .5rem 0;
+    background-color: rgb(245, 248, 247);
+}
+
+.foot-pic img{
+    width: 3rem;
+}
+
+.foot-info{
+    color: rgb(9, 9, 196);
+    font-size: .5rem;
+    font-weight: bold;
+}

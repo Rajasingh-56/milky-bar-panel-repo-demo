@@ -1,0 +1,19 @@
+.contact-info {
+  padding: 1.2rem;
+  /* margin-bottom: 1rem; */
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.contact-info  h1{
+  border-bottom: 2px solid black;
+  margin-bottom: 0.5rem;
+}
+
+.note{
+    font-weight: bold ;
+    margin-bottom: .8rem;
+}

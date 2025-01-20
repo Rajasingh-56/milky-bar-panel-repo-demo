@@ -1,0 +1,94 @@
+
+
+.sub-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* height: 100vh; */
+  width: 480px;
+  background-color: rgb(247, 247, 9);
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.form-section h1 {
+  color: rgb(4, 33, 161);
+  margin-bottom: 0.7rem;
+}
+
+.admission-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.admission-form .error {
+  color: red; /* Error messages in red */
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.form-section input,
+select {
+  font-size: 0.8rem;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 20rem;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  /* box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 0.8); */
+}
+.checkbox-container input{
+  width: auto !important;
+}
+
+/* .checkbox-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.input-group input {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
+.check-info p {
+  font-size: 0.5rem;
+  letter-spacing: 0.3px;
+}
+
+.terms-link {
+  color: rgb(228, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.otp-btns  button {
+  font-size: 1.1rem;
+  font-weight: bold;
+  height: 50px;
+  width: 100%;
+  padding: 0.5rem 4rem;
+  border-radius: 13px;
+  background-color: #0677e0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1.8rem;
+}

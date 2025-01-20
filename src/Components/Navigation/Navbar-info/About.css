@@ -1,0 +1,14 @@
+.abt-info {
+  padding: 1.2rem;
+  /* margin-bottom: 1rem; */
+}
+
+.abt-info p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.abt-info h2{
+    border-bottom: 2px solid black;
+margin-bottom: 0.5rem;
+}
