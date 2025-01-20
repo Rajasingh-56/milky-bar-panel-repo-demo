@@ -14,8 +14,8 @@ import Services from "./Components/Navigation/Navbar-info/Services";
 function App() {
   return (
     <>
-      <Router> 
-      <Navigation />
+      <Router>
+        <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/verification" element={<Verification />} />
@@ -27,23 +27,9 @@ function App() {
           <Route path="/services" element={<Services />} />
         </Routes>
         <Footer />
-       </Router>
+      </Router>
     </>
   );
 }
 
 export default App;
-
-// import "./App.css";
-// import { BrowserRouter as Router } from "react-router-dom";
-// import Navigation from "./Components/Navigation/Navigation";
-
-// function App() {
-//   return (
-//     <Router>
-//       <Navigation />
-//     </Router>
-//   );
-// }
-
-// export default App;

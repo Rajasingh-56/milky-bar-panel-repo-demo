@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navigation.css";
 import { NavLink } from "react-router-dom";
+// import MainLogo from "../../../public/Assets/header-logo.png"
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
