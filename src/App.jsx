@@ -14,7 +14,7 @@ import Services from "./Components/Navigation/Navbar-info/Services";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/milky-bar-panel-repo-demo">
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
